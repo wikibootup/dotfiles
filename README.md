@@ -1,3 +1,4 @@
 # wikibootup's dotfiles
 
 Zshrc : https://github.com/wikibootup/zshrc
+Nvimrc : https://github.com/wikibootup/nvimrc
