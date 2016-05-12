@@ -5,7 +5,7 @@
 ```
 * Caution : It is on progress( not stable )!
 
-Source
+Sources
 ---
 Zshrc : https://github.com/wikibootup/zshrc  
 Nvimrc : https://github.com/wikibootup/nvimrc  
