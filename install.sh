@@ -1,5 +1,8 @@
 path_dir="$HOME/.dotfiles"
-mkdir "$path_dir"
+if [[ ! -d "$path_dir" ]]
+then
+  mkdir "$path_dir"
+fi
 
 common_url="https://github.com/wikibootup"
 link_path="\$HOME/.config"
@@ -28,14 +31,6 @@ if [[ ! -d "$path_dir/tmuxrc" ]]
 then
   git clone "$common_url/tmuxrc" "$path_dir/tmuxrc"
   cd "$path_dir/tmuxrc" && sh install.sh
-  if [[ ! -f "$HOME/.tmux.conf" ]]
-  then
-    ln -s $HOME/.config/tmux/tmux.conf $HOME/.tmux.conf
-  else
-    mv "$HOME/.tmux.conf" "$path_dir/tmuxrc/.tmux.conf.bak"
-    ln -s $HOME/.config/tmux/tmux.conf $HOME/.tmux.conf
-    echo "Previous .tmux.conf was moved to $path_dir/tmuxrc/.tmux.conf.bak"
-  fi
 else
   echo "Tmux already exsits in $common_url/tmuxrc"
 fi
