@@ -24,7 +24,7 @@ else
 fi
 
 # tmux
-if [[ ! -d "$path_dir/nvimrc" ]]
+if [[ ! -d "$path_dir/tmuxrc" ]]
 then
   git clone "$common_url/tmuxrc" "$path_dir/tmuxrc"
   cd "$path_dir/tmuxrc" && sh install.sh
