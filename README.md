@@ -3,7 +3,6 @@
 ```
 ./install.sh
 ```
-* Caution : It is on progress( not stable )!
 
 Sources
 ---
