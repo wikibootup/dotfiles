@@ -1,17 +1,11 @@
 path_dir="$HOME/.dotfiles"
-if [[ ! -d "$path_dir" ]]
-then
-  mkdir "$path_dir"
-fi
+mkdir -p "$path_dir"
 
 common_url="https://github.com/wikibootup"
 link_path="\$HOME/.config"
 
-# .config
-if [[ ! -d "$link_path" ]]
-then
-  mkdir "$link_path"
-fi
+# make .config
+mkdir -p "$link_path"
 
 # zsh
 if [[ ! -d "$path_dir/zshrc" ]]
