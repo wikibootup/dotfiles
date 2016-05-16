@@ -11,7 +11,7 @@ link_path="\$HOME/.config"
 if [[ ! -d "$path_dir/zshrc" ]]
 then
   git clone "$common_url/zshrc" "$path_dir/zshrc"
-  cd "$path_dir/zshrc" && sh install.sh
+  /bin/bash "$path_dir/zshrc/install.sh"
   echo "source $link_path/zsh/zshrc" >> $HOME/.zshrc
 else
   echo "Zsh already exsits in $common_url/zshrc"
@@ -21,7 +21,7 @@ fi
 if [[ ! -d "$path_dir/nvimrc" ]]
 then
   git clone "$common_url/nvimrc" "$path_dir/nvimrc"
-  cd "$path_dir/nvimrc" && sh install.sh
+  /bin/bash "$path_dir/nvimrc/install.sh"
 else
   echo "Neovim already exsits in $common_url/nvimrc"
 fi
@@ -30,7 +30,7 @@ fi
 if [[ ! -d "$path_dir/tmuxrc" ]]
 then
   git clone "$common_url/tmuxrc" "$path_dir/tmuxrc"
-  cd "$path_dir/tmuxrc" && sh install.sh
+  /bin/bash "$path_dir/tmuxrc/install.sh"
 else
   echo "Tmux already exsits in $common_url/tmuxrc"
 fi
