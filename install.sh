@@ -7,6 +7,12 @@ fi
 common_url="https://github.com/wikibootup"
 link_path="\$HOME/.config"
 
+# .config
+if [[ ! -d "$link_path" ]]
+then
+  mkdir "$link_path"
+fi
+
 # zsh
 if [[ ! -d "$path_dir/zshrc" ]]
 then
