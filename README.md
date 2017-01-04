@@ -3,6 +3,12 @@
 ```
 ./install.sh
 ```
+* Note
+- Configurations
+  - Path
+    - Original path : `~/.dotfiles/`
+    - Symbolic path : `~/.config` from Original path
+    - Symbolic path2 : `~/.` from Symbolic path
 
 Sources
 ---
