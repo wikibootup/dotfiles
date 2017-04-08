@@ -1,9 +1,5 @@
 # wikibootup's dotfiles
 
-```
-./install.sh
-```
-
 Sources
 ---
 Zshrc : https://github.com/wikibootup/zshrc  

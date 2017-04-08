@@ -1,0 +1,9 @@
+[submodule "zshrc"]
+	path = zshrc
+	url = https://github.com/wikibootup/zshrc
+[submodule "nvimrc"]
+	path = nvimrc
+	url = https://github.com/wikibootup/nvimrc
+[submodule "tmuxrc"]
+	path = tmuxrc
+	url = https://github.com/wikibootup/tmuxrc
