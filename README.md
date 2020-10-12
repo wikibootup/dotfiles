@@ -1,14 +1,11 @@
 # wikibootup's dotfiles
 
-* Note
-- Configurations
-  - Path
-    - Original path : `~/.dotfiles/`
-    - Symbolic path : `~/.config` from Original path
-    - Symbolic path2 : `~/.` from Symbolic path (when necessary)
+```
+$ git clone --recursive https://github.com/wikibootup/dotfiles.git ~/.config
+$ ln -s .config/zsh/.zshrc ~/.zshrc
+```
 
 Sources
 ---
-Zshrc : https://github.com/wikibootup/zshrc  
 Nvimrc : https://github.com/wikibootup/nvimrc  
 Tmuxrc : https://github.com/wikibootup/tmuxrc
