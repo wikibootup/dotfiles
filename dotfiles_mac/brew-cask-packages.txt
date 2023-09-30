@@ -1,0 +1,8 @@
+iterm2
+docker
+discord
+slack
+zoom
+zulu
+ngrok
+fig

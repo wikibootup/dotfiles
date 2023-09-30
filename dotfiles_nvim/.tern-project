@@ -1,0 +1,17 @@
+{
+  "plugins": {
+    "es_modules": {},
+    "node": {},
+    "jshint": {
+      "configFile": "~/.jshintrc"
+    }
+  },
+  "libs": [
+    "ecma5",
+    "ecma6",
+    "browser",
+    "jquery",
+    "chai"
+  ],
+  "ecmaVersion": 6
+}

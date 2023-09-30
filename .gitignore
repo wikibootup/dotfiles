@@ -1,0 +1,23 @@
+Pipfile*
+*/nvim/.netrwhist
+*/nvim/autoload/plug.vim
+*/nvim/bundle
+*/nvim/plugged
+*/nvim/undo
+*/nvim/vim
+
+*~
+
+# for ycm external completer
+__pycache__/
+
+autoload/
+
+# Ctags, Atags
+tags
+tags.tmp*
+
+.tmux.conf.bak
+tags
+tags.tmp*
+

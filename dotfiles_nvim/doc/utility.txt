@@ -1,0 +1,37 @@
+Word search
+<S-#> at the word
+
+NERDTREE
+Key 't'(cursor at the nerdtree navigation bar) makes new tab in the top
+
+EMMET
+emmet_expandabbr_key
+  - is working on n,i mode
+  - the key binding '<C-y>,' I interpreted as 'a rest' before completion
+
+Yank & Clipboard
+  - To copy into clipboard, I use <C-c>, <C-x>, <C-v>
+  - To yank, just y. I commented 'unnamedplus' to seperate purpose.
+
+VIM jsdoc
+  - I force to insert input prompt when :JsDoc
+    I think it is faster & explicit way.
+    But if want to create empty format, press ESC or ENTER continuosly.
+
+Tagbar
+- TagbarOpen may cause a delay for the large file, Toggle off(or turn off) if
+  you mind that.
+
+Autocompletion
+I use following plugins together for various languages and frameworks.
+  - Deoplete
+  - nvim-completion-manager
+
+Process speed(bottleneck) check
+(1) ':syntime on'
+(2) ': syntime report'
+
+Plugins I do not use 'for some reason'
+- 'othree/yajs.vim' : It makes javascript embedded in html very slow (2017, september 5).
+
+S-arrow mapping is deleted because other editors use it as blocking text.

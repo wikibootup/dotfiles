@@ -1,0 +1,26 @@
+// User settings.json 09/30/2023
+// Library/Application Support/Code/User/settings.json
+{
+    "workbench.colorTheme": "Dracula",
+    "window.zoomLevel": 1,
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<Esc>"
+            ],
+            "after": [
+                "<Esc>"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        }
+    ],
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "MesloLGS NF",
+    "editor.accessibilitySupport": "on"
+}
