@@ -28,3 +28,5 @@ fzf
 zsh-syntax-highlighting
 tfenv
 ack
+awscli
+go
