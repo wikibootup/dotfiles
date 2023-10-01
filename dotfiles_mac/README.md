@@ -11,3 +11,12 @@ For keyboard bindings, I changed the Input source as Cmd+Space
 For the paste as original format, I added App shortcuts
 - Settings > Keyboard > Shortcuts > App shortcuts
   - ![Screenshot 2023-09-24 at 5 33 49 PM](https://github.com/wikibootup/dotfiles/assets/6479173/cb6e048c-11ed-4b0d-a94b-455e2e172f0e)
+
+***
+
+## Troubleshooting
+
+- To check **brew** issue, `$ brew doctor`
+- To clean **brew** cache, `$ brew cleanup`
+- To find cask directory, go to `/opt/homebrew/Caskroom/`
+- To fix **fig** issue, `fig doctor`
