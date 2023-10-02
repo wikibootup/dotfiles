@@ -30,3 +30,4 @@ tfenv
 ack
 awscli
 go
+eksctl
