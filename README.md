@@ -2,14 +2,14 @@
 
 ![vim-edit-screen-2](https://github.com/wikibootup/dotfiles/assets/6479173/8cb4d267-8abc-4175-9d29-4f91a27da07e)
 
-
 🙌 This repo is a guide repo for setting up my initial laptop development environment.
 
-1. 🍎 I am a Mac OS X user, and I install the initial required packages using [Homebrew](https://brew.sh/) including `brew cask` commands. For more details, you can read [mac/README.md](https://github.com/wikibootup/dotfiles/blob/master/mac/README.md)
-2. 🧰 I use iTerm as a terminal, Zsh as a shell, Neovim as a text editor, and Tmux as a screen multiplexer, editor as [Visual Studio Code](https://code.visualstudio.com/) with some customization ([Link]((https://github.com/wikibootup/dotfiles/blob/master/vscode/README.md))).
-3. 🤖 I have partially automated processes “1” and “2” in the [dotfiles](https://github.com/wikibootup/dotfiles) repo.
-
+- OS: **MAC OS X**
+- Shell: **Zsh**
+- Terminal text editor: **NeoVim**
+- Mac package manager: **[Homebrew](https://brew.sh/)** (including `brew cask`)
 - Text editor mode: **[Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)**
+- Code Editor: [VS Code](https://code.visualstudio.com/), **[JetBrains](https://www.jetbrains.com/)**
 - Theme: **[Drakula](https://draculatheme.com/)**
 - CLI helper: **[Fig](https://fig.io/)**
 - Chat AI: **[Vim](https://github.com/features/copilot), [VSCode](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=vscode#prerequisites-2)**
